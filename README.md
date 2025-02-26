@@ -2,7 +2,7 @@
 
  In this project user have to guess the number that the computer has generated as shown in the pictures below
 
- ![Screenshot 2024-05-09 125203](https://github.com/user-attachments/assets/9670314d-8d9e-465e-9b91-d57df545d2e4)
+![Screenshot 2025-02-26 114814](https://github.com/user-attachments/assets/85315392-c2ea-466e-9285-68171f28ecdd)
 
 
 User Stories
