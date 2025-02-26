@@ -1,8 +1,21 @@
 # Browser-Based-Game-Project
 
- In this project user have to guess the number that the computer has generated as shown in the pictures below
+ In this project user have to guess the number that the computer has generated as shown in the pictures below which is created base on the following
 
+* HTML
+* CSS
+* JavaScript
+* DOM Manipulation
+
+
+
+
+ 
+<div align="center">
+ 
 ![Screenshot 2025-02-26 114814](https://github.com/user-attachments/assets/85315392-c2ea-466e-9285-68171f28ecdd)
+
+</div>
 
 
 ### User Stories
