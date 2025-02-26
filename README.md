@@ -1,4 +1,4 @@
-# 🎮 Browser-Based-Game-Project
+# 🎮 Programming guess the number
 
  In this project user have to guess the number that the computer has generated as shown in the pictures below which is created base on the following
 
