@@ -14,7 +14,7 @@ const resetGame = () => {
   input.disabled = false; // Enable input field
   remainChances.textContent = chance; // Update chances display
   guess.textContent = ""; // Clear guess display
-  guess.style.color = rgb(51, 51, 51); // Reset guess text color
+  guess.style.color = "rgb(51, 51, 51)"; // Reset guess text color
   input.value = ""; // Clear input field
   checkButton.textContent = "Check"; // Reset button text
 };
@@ -36,11 +36,11 @@ checkButton.addEventListener("click", () => {
 
   if (inputValue == randomNum) { // Correct guess
     [guess.textContent, input.disabled] = ["Contgrats! You found the number.", true];
-    [checkButton.textContent, guess.style.color] = ["Replay", rgb(39, 174, 96)];
+    [checkButton.textContent, guess.style.color] = ["Replay", "rgb(39, 174, 96)"];
   } else if (inputValue > randomNum && inputValue <= 100) { // Guess is too high
     [guess.textContent, remainChances.textContent] = ["Your guess is high", chance];
     guess.style.color = "rgb(51, 51, 51)";
-  } else if (inputValue < randomNum && inputValue >= 0) { // Guess is too low
+  } else if (inputValue < randomNum && inputValue > 0) { // Guess is too low
     [guess.textContent, remainChances.textContent] = ["Your guess is low", chance];
     guess.style.color = "rgb(51, 51, 51)";
   } else { // Invalid input (not in the range 0-100)
