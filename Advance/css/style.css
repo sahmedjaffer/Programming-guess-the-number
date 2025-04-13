@@ -67,3 +67,15 @@ body {
     font-weight: bold;
     color: #ff5733;
   }
+
+  .range-setup {
+    margin-bottom: 20px;
+  }
+  
+  .range-setup input {
+    width: 80px;
+    margin: 0 10px 10px 0;
+    padding: 8px;
+    font-size: 16px;
+  }
+  

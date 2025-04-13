@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script defer src="./js/app.js"></script>
 </head>
 <body>
-    <div class="game-container">
-      <h1>Guess the Number</h1>
-      <p>Guess a number between 1 and 100:</p>
-  
-      <!-- Input for the user's guess -->
-      <input type="number" id="user-guess" placeholder="Enter your guess" min="1" max="100" required>
-  
-      <!-- Button to submit the guess -->
-      <button id="guess-button">Guess</button>
-  
-      <!-- Feedback message for the user -->
-      <div id="result-message">
-        <p>Start guessing to see the result!</p>
-      </div>
+  <div class="game-container">
+    <h1>Guess the Number</h1>
+    <!-- Range Selection -->
+    <div class="range-setup">
+      <p>Choose your number range:</p>
+      <input type="number" id="min-range" placeholder="Min" min="1" />
+      <input type="number" id="max-range" placeholder="Max" min="2" />
+      <button id="start-button">Start Game</button>
     </div>
-  </body>
+
+    <!-- Guessing Interface (hidden initially) -->
+    <div class="game-interface" style="display: none;">
+      <p>Guess a number in the selected range:</p>
+      <input type="number" id="user-guess" placeholder="Enter your guess" required />
+      <button id="guess-button">Check</button>
+      <p class="guess"></p>
+      <p>Chances left: <span class="chances">10</span></p>
+    </div>
+  </div>
+  <script defer src="./js/app.js"></script>
+</body>
+
   </html>
