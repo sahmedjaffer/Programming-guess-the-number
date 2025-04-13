@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <script defer src="./js/app.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guess the Number</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="game-container">
-      <h1>Guess the Number</h1>
-      <p>Guess a number between 1 and 100:</p>
-  
-      <!-- Input for the user's guess -->
-      <input type="number" id="user-guess" placeholder="Enter your guess" min="1" max="100" required>
-  
-      <!-- Button to submit the guess -->
-      <button id="guess-button">Guess</button>
-  
-      <!-- Feedback message for the user -->
-      <div id="result-message">
-        <p>Start guessing to see the result!</p>
-      </div>
-    </div>
-  </body>
-  </html>
+  <div class="game-container">
+    <h1>Guess the Number</h1>
+    <p>Guess a number between 1 and 100:</p>
+
+    <!-- Input for the user's guess -->
+    <input type="number" id="user-guess" placeholder="Enter your guess" min="1" max="100" required>
+
+    <!-- Button to submit the guess -->
+    <button id="guess-button">Guess</button>
+
+    <!-- Feedback message -->
+    <p class="guess">Start guessing to see the result!</p>
+
+    <!-- Display remaining chances -->
+    <p>Chances left: <span class="chances">10</span></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
