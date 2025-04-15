@@ -19,10 +19,6 @@ const resetGame = () => {
   checkButton.textContent = "Check"; // Reset button text
 };
 
-// Generate a random number between 0 and 99
-let randomNum = Math.floor(Math.random() * 100);
-let chance = 10;
-
 // Add click event listener to the check button
 checkButton.addEventListener("click", () => {
   if (input.disabled) {
