@@ -9,7 +9,7 @@ input.focus();
 
 // Function to reset the game
 const resetGame = () => {
-  randomNum = Math.floor(Math.random() * 100); // Generate a new random number
+  randomNum = Math.floor(Math.random() * 100); // Generate a new random number for the game
   chance = 10; // Reset chances
   input.disabled = false; // Enable input field
   remainChances.textContent = chance; // Update chances display
