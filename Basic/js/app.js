@@ -39,6 +39,9 @@ checkButton.addEventListener("click", () => {
   let inputValue = input.value; 
  // Decrease chance by 1 on each click
   chance--; 
+
+  // Update chances display
+  remainChances.textContent = chance;
   //Logic of the game
 
   // If the guess is correct
