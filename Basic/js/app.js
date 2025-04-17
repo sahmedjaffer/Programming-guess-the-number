@@ -22,7 +22,9 @@ const resetGame = () => {
   // Clear input field 
   input.value = ""; 
   // Reset button text
-  checkButton.textContent = "Check"; 
+  checkButton.textContent = "Check";
+  // Set chances limit
+chance = 10; 
 };
 // Add click event listener to the check button
 checkButton.addEventListener("click", () => {
