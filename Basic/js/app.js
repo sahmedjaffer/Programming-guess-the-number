@@ -31,14 +31,14 @@ checkButton.addEventListener("click", () => {
   if (input.disabled) {
     // If the input is disabled, reset the game
     resetGame();
-      // Decrease chance by 1 on each click
-  chance--; 
+ 
     return;
   }
 
   // Get the value from the input field
   let inputValue = input.value; 
-
+ // Decrease chance by 1 on each click
+  chance--; 
   //Logic of the game
 
   // If the guess is correct
