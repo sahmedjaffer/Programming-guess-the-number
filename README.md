@@ -1,3 +1,6 @@
+<h1>Guess The Number Game</h1>
+
+
 <div align="center">
  
 ![image](https://github.com/user-attachments/assets/0466e512-dc4b-44ef-9459-5b6868f4dbb6)
