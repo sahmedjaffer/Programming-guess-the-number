@@ -9,8 +9,7 @@
 
 
 
-
-
+<a href="https://sahmedjaffer.github.io/Programming-guess-the-number/Basic/index.html">Game Link</a>
  
 <div align="center">
  
@@ -18,6 +17,19 @@
 
 </div>
 
+### 🎮 Game Instructions
+
+* Landing on the game page.
+  
+* Press the start button.
+  
+* Be aware that you have 10 guesses or you will lose.
+
+* Enter the guessed number and press guess button.
+  
+* a message will show to instruct if the guess in high or low from the randomly generated number by the game.
+  
+* when number guessed is true the game will end.
 
 ### 🌟 User Stories
 
